@@ -21,6 +21,11 @@ public class BoardDAO {
 		// TODO Auto-generated constructor stub
 	
 		try {
+			
+			
+			//////////메롱메롱이다~~~~메롱이지~~~~~~
+			
+			
 			Context init = new InitialContext();
 			DataSource ds = (DataSource) init.lookup("java:comp/env/oooo");
 			con = ds.getConnection();
